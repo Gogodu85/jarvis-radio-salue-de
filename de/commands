@@ -1,0 +1,2 @@
+*RADIO SALU*AN*==say "ok ich mache Radio Salue an"; Jv_Pg_Radio_Salue_Play
+*RADIO SALU*AUS*==say "ok ich schalte Radio Salue aus"; kill $(pgrep -lf vlc | cut -d' ' -f1)
