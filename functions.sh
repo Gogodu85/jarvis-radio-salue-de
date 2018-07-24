@@ -6,3 +6,12 @@
 # pg for PluGin
 # XX is a short code for your plugin, ex: ww for Weather Wunderground
 # You can use translations provided in the language folders functions.sh
+
+Jv_Pg_Radio_Salue_Play ()
+{
+if [ $jv_pg_radio_salue_audio_device ]; then
+	cvlc --aout alsa --alsa-audio-device "$jv_pg_radio_salue_audio_device" "$jv_pg_radio_salue_mp3_url"&
+else
+	cvlc "$jv_pg_radio_salue_mp3_url"
+fi
+}
