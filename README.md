@@ -10,8 +10,10 @@ Dieses Plugin funktioniert mit VLC.
 Pour continuer à utiliser Jarvis pendant la lecture de Radio salue, il est préférable d'avoir un deuxième haut-parleur (bluetooth ou USB) et de l'avoir renseigné dans le fichier .asoundrc puis de modifier la variable jv_pg_radio_salue_audio_device avec le nom du périphérique audio désiré.
 
 exemple:
-* jv_pg_radio_salue_audio_device=		# pour le reglage par défault.
-* jv_pg_radio_salue_audio_device=jabra		# avec votre deuxième sortie audio.
+# pour le reglage par défault.
+* jv_pg_radio_salue_audio_device=
+# avec votre deuxième sortie audio.
+* jv_pg_radio_salue_audio_device=jabra
 
 ## [Wichtig]
 
