@@ -1,4 +1,4 @@
-# Indiquer le nom du périphérique que vous avez nommé dans le ichier .asoundrc
+# Indiquer le nom du périphérique que vous avez nommé dans le fichier .asoundrc
 # ou laisser la variable vide pour le périphérique par défaut.
 jv_pg_radio_salue_audio_device=
 
